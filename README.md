@@ -1,37 +1,55 @@
-<h1 align="center">
-  Buscador Github
-  <img align="center" alt="React" height="80" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-</h1>
+# DGames
 
-<p>
-  Esse projeto consiste em um buscador de perfis do github. Após a pesquisa, ele exibe na barra lateral o nome, avatar, quantidade de seguidores e seguindo, localização, local de trabalho e website. Seguindo nessa barra, ele exibe um filtro de linguagens para a exibição dos repositórios logo à direita. E no conteúdo principal à direita, como já dito, exibem-se os repositórios do usuário pesquisado.
-</p>
+## Live application:
 
-<h2 align="center">Exibição</h2>
+[https://buscadorgithub-gamma.vercel.app/](https://buscadorgithub-gamma.vercel.app/)
 
-<h3 align="center">Mobile</h3>
+## Sobre o projeto
 
-<div align="center">
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/8a28b5af-03cd-44fd-b427-ba1434fb9e23" width="300px" />
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/7ce80ae3-119a-4b8b-9c71-a1002f5aea15" width="300px" />
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/726c2a06-0096-424a-a1b3-017cb18cd788" width="300px" />
-</div>
+Este website foi desenvolvido para facilitar a busca de repositórios e perfis de usuários no GitHub. 
+Com ele, você pode pesquisar por repositórios, visualizar detalhes como descrição, estrelas e forks, 
+além de explorar perfis de usuários e ver seus seguidores, repositórios públicos e outras informações relevantes.
 
-<h3 align="center">PC</h3>
+## Funcionalidades
 
-<div align="center">
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/831ccac5-e97f-4b1e-9d72-51e56189c3ff" width="700px" />
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/b266c7e1-8e72-43e1-979e-69afd328a765" width="700px" />
-  <img src="https://github.com/Thyago-ES/Buscador-GitHub/assets/143831711/2b4c53ea-bad1-4673-9f9e-718b1819518a" width="700px" />
-</div>
+-  **Pesquisa de usuários**: Permite buscar perfis de usuários e exibe informações como seguidores, repositórios públicos e localização.
+-  **Detalhes do Repositório**: Você pode ver informações detalhadas do repositório e, ao clicá-lo, será redicionado para o repositório no GitHub.
+-  **Filtro de linguagens**: Filtrar repositórios pela principal linguagem utilizada.  
 
-<h2 align="center">Tecnologias utilizadas</h2>
-<ul>
-  <li>ReactJS</li>
-  <li>Styled-Components</li>
-  <li>React Hooks</li>
-  <li>React-Router-DOM</li>
-  <li>Axios</li>
-  <li>Theme-Provider</li>
-  <li>API GitHub</li>
-</ul>
+## Estrutura de pastas
+
+/src         # Código-fonte da aplicação  
+&nbsp;&nbsp;  /assets &nbsp;&nbsp;        # Imagens utilizadas na aplicação  
+&nbsp;&nbsp;  /components &nbsp;&nbsp;    # Componentes reutilizáveis    
+&nbsp;&nbsp;  /pages &nbsp;&nbsp;         # Páginas da aplicação  
+&nbsp;&nbsp;  /services &nbsp;&nbsp;      # Funções para chamada da API  
+&nbsp;&nbsp;  /styles &nbsp;&nbsp;        # Estilos globais  
+
+## Tecnologias Utilizadas
+
+-  **React.js**: Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas.
+-  **Javascript**: Uma linguagem de programação usada para criar conteúdo web dinâmico.
+-  **React router**: Uma biblioteca para gerenciar rotas em aplicações React.
+-  **Styled-Components**: Uma biblioteca para estilizar componentes em aplicações React usando tagged template literals.
+-  **Axios**: Uma biblioteca JavaScript para fazer requisições HTTP.
+-  **API GitHub**: Permite acessar e interagir com dados do GitHub, como repositórios e usuários.
+
+## Rodando localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Thyago-ES/Buscador-GitHub
+```
+
+Instale as dependências::
+
+```bash
+npm install
+```
+
+Inicialize o App:
+
+```bash
+npm run start
+```
